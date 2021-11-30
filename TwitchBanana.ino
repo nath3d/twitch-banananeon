@@ -8,10 +8,10 @@
 
 //BASTIUI
 #define SSID "AGRID"
-#define PASSWORD "internet3000"
+#define PASSWORD "pass"
 #define TWITCH_BOT_NAME "agrid"
-#define TWITCH_OAUTH_TOKEN "oauth:xaucjdsz612ho9yrd5g4ytiz262qcp"
-#define SOCKET_TOKEN "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IkIwMDE4QkIwMDQwNjI4RTcyNEJFIiwicmVhZF9vbmx5Ijp0cnVlLCJwcmV2ZW50X21hc3RlciI6dHJ1ZSwieW91dHViZV9pZCI6IlVDbm5JUDM0Q3BUN25JQlpTNUt1dWhiQSIsInR3aXRjaF9pZCI6IjE0OTY0MzUxMCJ9.HRt1QwLFPnuBF2kmxXO53yWpZCvgiGXEZ7DSBYGYcn4"
+#define TWITCH_OAUTH_TOKEN "token"
+#define SOCKET_TOKEN "token"
 const String twitchChannelName = "bastiui";
 
 String ircChannel = "";
