@@ -17,7 +17,7 @@ const String twitchChannelName = "bastiui";
 String ircChannel = "";
 String bastiuiNickName = "BASTIUI";
 String lunathNickName = "LUNATH_";
-String stringToFindEmote = "bastiuiBanaNeon";
+String stringToFindEmote = "bstiBanaNeon";
 String stringToFindCheer1 = "Cheer1";
 String stringToFindCheer5 = "Cheer5";
 
@@ -165,7 +165,7 @@ void bitsBanana(String message)
   int bitsCount = message.substring(0, message.indexOf(' ')).toInt();
   if(bitsCount > 10)
     bitsCount = bitsCount /10;
-  if(bitsCount >= 10000)
+  else if(bitsCount >= 10000)
     bitsCount = bitsCount /100;
     
   for (int i = 0; i < bitsCount; i++)
