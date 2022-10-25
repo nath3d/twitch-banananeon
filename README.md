@@ -1,4 +1,4 @@
-# banananeon-twitch-alerts
+# twitch-banananeon
 
 
 ## Credits
